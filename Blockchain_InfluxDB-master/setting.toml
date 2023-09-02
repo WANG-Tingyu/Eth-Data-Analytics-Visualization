@@ -1,0 +1,13 @@
+[init]
+from_block = 12781233
+to_block = 570000
+datadir = ".ethereum"
+
+[gethHttpServer]
+url = 'http://localhost:8545'
+
+[InfluxDB]
+token = "RqUzXWOp2SO7tc3OExwcpDApUHWrGssC-7ByqramD9YmvJTkelMnysxIW5Vz-Lay6eVJZpvKWrRIwsOvifd05g=="
+org = "hkbu"
+bucket = "CryptoBlocks"
+url = 'http://localhost:8086'

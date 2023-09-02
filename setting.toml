@@ -1,0 +1,15 @@
+[init]
+from_block = 100000
+to_block = 150000
+datadir = 'data/'
+tx_lists = ['tx_list_12700000_12800000']
+batch_unit = 2
+
+[neo4j]
+url = 'bolt://127.0.0.1:7687'
+username = 'neo4j'
+password = 'nft'
+
+[gethHttpServer]
+url = 'http://localhost:8545'
+
